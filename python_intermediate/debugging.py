@@ -6,8 +6,14 @@ def divisors(x):
 	return(divisor)
 
 def run():
-	number = int(input('Select a number'))
-	print(divisors(number))
+	try:
+		number = int(input('Select a number: '))
+		if number < 0 or number == -0:
+			raise Exception('Sorry, only positive numbers')
+		print(divisors(number))
+	except ValueError:
+		print('Debes ingresar un número')
+
 
 if __name__ == '__main__':
 	run()
