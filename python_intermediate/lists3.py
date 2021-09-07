@@ -5,4 +5,4 @@ def run(lst):
 	print(result)
 
 if __name__ == '__main__':
-	run(['hi', 4, 8.99, 'apple', ('t,b','n')])
+	run(['hi', 4, 8.99, 'apple', ('t,b','n')]) 
