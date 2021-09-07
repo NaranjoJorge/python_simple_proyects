@@ -12,7 +12,7 @@ def run():
 			raise Exception('Sorry, only positive numbers')
 		print(divisors(number))
 	except ValueError:
-		print('Debes ingresar un número')
+		print('You should select a number')
 
 
 if __name__ == '__main__':
